@@ -56,10 +56,11 @@ public class kalkulator extends javax.swing.JFrame {
         btntambah = new java.awt.Button();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Kalkulator");
 
         jPanel1.setBackground(new java.awt.Color(102, 102, 102));
 
-        jPanel2.setBackground(new java.awt.Color(153, 204, 255));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
         display.setBackground(new java.awt.Color(153, 153, 153));
         display.setFont(new java.awt.Font("Arial Black", 1, 11)); // NOI18N
@@ -81,8 +82,9 @@ public class kalkulator extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel3.setBackground(new java.awt.Color(153, 204, 255));
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
+        btnangkasatu.setBackground(new java.awt.Color(153, 204, 255));
         btnangkasatu.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnangkasatu.setLabel("1");
         btnangkasatu.addActionListener(new java.awt.event.ActionListener() {
@@ -91,6 +93,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnangkadua.setBackground(new java.awt.Color(153, 204, 255));
         btnangkadua.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnangkadua.setLabel("2");
         btnangkadua.addActionListener(new java.awt.event.ActionListener() {
@@ -99,6 +102,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnangkatiga.setBackground(new java.awt.Color(153, 204, 255));
         btnangkatiga.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnangkatiga.setLabel("3");
         btnangkatiga.addActionListener(new java.awt.event.ActionListener() {
@@ -107,6 +111,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnangkaempat.setBackground(new java.awt.Color(153, 204, 255));
         btnangkaempat.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnangkaempat.setLabel("4");
         btnangkaempat.addActionListener(new java.awt.event.ActionListener() {
@@ -115,6 +120,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnangkalima.setBackground(new java.awt.Color(153, 204, 255));
         btnangkalima.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnangkalima.setLabel("5");
         btnangkalima.addActionListener(new java.awt.event.ActionListener() {
@@ -123,6 +129,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnangkaenam.setBackground(new java.awt.Color(153, 204, 255));
         btnangkaenam.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnangkaenam.setLabel("6");
         btnangkaenam.addActionListener(new java.awt.event.ActionListener() {
@@ -131,6 +138,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnangkatujuh.setBackground(new java.awt.Color(153, 204, 255));
         btnangkatujuh.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnangkatujuh.setLabel("7");
         btnangkatujuh.addActionListener(new java.awt.event.ActionListener() {
@@ -139,6 +147,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnangkadelapan.setBackground(new java.awt.Color(153, 204, 255));
         btnangkadelapan.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnangkadelapan.setLabel("8");
         btnangkadelapan.addActionListener(new java.awt.event.ActionListener() {
@@ -147,6 +156,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnangkasembilan.setBackground(new java.awt.Color(153, 204, 255));
         btnangkasembilan.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnangkasembilan.setLabel("9");
         btnangkasembilan.addActionListener(new java.awt.event.ActionListener() {
@@ -155,6 +165,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnangkanol.setBackground(new java.awt.Color(153, 204, 255));
         btnangkanol.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnangkanol.setLabel("0");
         btnangkanol.addActionListener(new java.awt.event.ActionListener() {
@@ -163,6 +174,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnkoma.setBackground(new java.awt.Color(153, 204, 255));
         btnkoma.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnkoma.setLabel(",");
         btnkoma.addActionListener(new java.awt.event.ActionListener() {
@@ -171,6 +183,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnhapus.setBackground(new java.awt.Color(153, 204, 255));
         btnhapus.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnhapus.setLabel("C");
         btnhapus.addActionListener(new java.awt.event.ActionListener() {
@@ -181,6 +194,7 @@ public class kalkulator extends javax.swing.JFrame {
 
         button13.setLabel("button13");
 
+        btnpersen.setBackground(new java.awt.Color(153, 204, 255));
         btnpersen.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnpersen.setLabel("%");
         btnpersen.addActionListener(new java.awt.event.ActionListener() {
@@ -189,6 +203,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnplusminus.setBackground(new java.awt.Color(153, 204, 255));
         btnplusminus.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnplusminus.setLabel("+/-");
         btnplusminus.addActionListener(new java.awt.event.ActionListener() {
@@ -197,6 +212,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnbagi.setBackground(new java.awt.Color(153, 204, 255));
         btnbagi.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnbagi.setLabel("/");
         btnbagi.addActionListener(new java.awt.event.ActionListener() {
@@ -205,6 +221,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnkali.setBackground(new java.awt.Color(153, 204, 255));
         btnkali.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnkali.setLabel("*");
         btnkali.addActionListener(new java.awt.event.ActionListener() {
@@ -213,6 +230,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        button1.setBackground(new java.awt.Color(153, 204, 255));
         button1.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         button1.setLabel("-");
         button1.addActionListener(new java.awt.event.ActionListener() {
@@ -221,6 +239,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btnsamadengan.setBackground(new java.awt.Color(153, 204, 255));
         btnsamadengan.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btnsamadengan.setLabel("=");
         btnsamadengan.addActionListener(new java.awt.event.ActionListener() {
@@ -229,6 +248,7 @@ public class kalkulator extends javax.swing.JFrame {
             }
         });
 
+        btntambah.setBackground(new java.awt.Color(153, 204, 255));
         btntambah.setFont(new java.awt.Font("SansSerif", 1, 12)); // NOI18N
         btntambah.setLabel("+");
         btntambah.addActionListener(new java.awt.event.ActionListener() {
@@ -341,9 +361,7 @@ public class kalkulator extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 223, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
